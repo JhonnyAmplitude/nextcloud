@@ -33,6 +33,8 @@ services:
     restart: always
     ports:
       - "127.0.0.1:8443:443"
+      - "127.0.0.1:18000:8000"
+
     environment:
       - DOC_SERV_ROOT_URL=https://docs.flexites.org
       - JWT_ENABLED=true
