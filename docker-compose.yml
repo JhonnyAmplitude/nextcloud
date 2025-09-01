@@ -35,7 +35,7 @@ services:
       - "127.0.0.1:18000:8000"  # Основной порт приложения
       - "127.0.0.1:8443:443"    # SSL порт
     environment:
-      - DOC_SERV_ROOT_URL=https://docs.flexites.org
+      - DOC_SERV_ROOT_URL=https://docs.flexidev.ru
       - JWT_ENABLED=true
       - JWT_SECRET=a8f5f167f44f4964e6c998dee827110c
     volumes:
